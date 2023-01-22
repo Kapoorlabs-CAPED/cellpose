@@ -3,7 +3,7 @@ import sys
 from platform import python_version
 import torch 
 
-version = "0.0.2"
+version = "0.0.3"
 
 version_str = f"""
 cellpose version: \t{version} 

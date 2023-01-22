@@ -2,10 +2,10 @@ import sys, os, argparse, glob, pathlib, time
 import numpy as np
 from natsort import natsorted
 from tqdm import tqdm
-from cellpose import utils, models, io, core, version_str
+from cellpose_vollseg import utils, models, io, core, version_str
 
 try:
-    from cellpose.gui import gui 
+    from cellpose_vollseg.gui import gui 
     GUI_ENABLED = True 
 except ImportError as err:
     GUI_ERROR = err
