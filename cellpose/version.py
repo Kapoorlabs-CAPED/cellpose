@@ -3,10 +3,7 @@ import sys
 from platform import python_version
 import torch 
 
-try:
-    version = version("cellpose")
-except PackageNotFoundError:
-    version = 'unknown'
+version = "0.0.1"
 
 version_str = f"""
 cellpose version: \t{version} 
