@@ -45,11 +45,11 @@ with open("README.md", "r") as fh:
     
     
 setup(
-    name="cellpose",
+    name="cellpose-vollseg",
     license="BSD",
-    author="Marius Pachitariu and Carsen Stringer",
-    author_email="stringerc@janelia.hhmi.org",
-    description="anatomical segmentation algorithm",
+    author="Varun Kapoor",
+    author_email="varun.kapoor@kapoorlabs.org",
+    description="modification of cellpose algorithm",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/MouseLand/cellpose",
